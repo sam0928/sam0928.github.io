@@ -6,10 +6,18 @@ localStorage.clear()  // undefined
 localStorage      //Storage {length: 0} 儲存資料
 
 function storage(value){
-    var fso=new ActiveXObject(Scripting.FileSystemObject);
-    var f=fso.createtextfile("C:\SamKo\test_py\from_LIFF.txt",2,true); 
-    f.writeLine(value);
-    f.close(); 
+    var fs = require('fs');
+    fs.writeFile("C:\\SamKo\\test_py\\from_LIFF.txt", "Hello!\noutput file\nby Node.js", function(err) {
+        if(err) {
+            console.log(err);
+        } else {
+            console.log("The file was saved!");
+        }
+    });
+    // var fso=new ActiveXObject(Scripting.FileSystemObject);
+    // var f=fso.createtextfile("C:\\SamKo\\test_py\\from_LIFF.txt",2,true); 
+    // f.writeLine(value);
+    // f.close(); 
 }
 
 // function check(id){
