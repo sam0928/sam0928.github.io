@@ -1,0 +1,145 @@
+#container {
+    height: 857px;
+    width:642px;
+    margin:-8px auto;
+	border: 40px solid #000000;
+    background-color: rgb(2, 124, 73);
+}
+#header{
+    height: 34%;
+    position: relative;
+    bottom: 17px;
+    /* background-color: aqua; */
+}
+h1{
+    font-size: 25px;
+    color:#FFF;
+    position: relative;
+    top:253px;
+    left:235px
+}
+#meal_select{
+    height: 33%;
+    position: relative;
+    bottom: 17px;
+    /* background-color: rgb(18, 177, 110); */
+}
+#left{
+    border: 15px solid #ffffff;
+    height: 81%;
+    width: 25%;
+    position: relative;
+    top:11px;
+    left:122px;
+    border-radius:5px ;
+}
+h2{
+    color: #fff;
+    font-size: 23px;
+    position: relative;
+    top:6px;
+    left:56px;
+}
+h3{
+    color: #fff;
+    font-size: 23px;
+    position: relative;
+    bottom:12px;
+    left:48px;
+    letter-spacing: 1px;
+}
+#in{
+    position: relative;
+    top: 25px;
+    left:2px;
+    max-width:98%;
+    min-height: 55%;
+    width: auto;
+    height: auto;
+}
+#right{
+    border: 15px solid #ffffff;
+    height: 81%;
+    width: 25%;
+    position: relative;
+    bottom:248px;
+    left:331px;
+    border-radius:5px ;
+}
+h4{
+    color: #fff;
+    font-size: 23px;
+    position: relative;
+    bottom:5px;
+    left:56px;
+}
+h5{
+    color: #fff;
+    font-size: 23px;
+    position: relative;
+    bottom:39px;
+    left:29px;
+    letter-spacing: 1px;
+}
+#out{
+    position: relative;
+    top: 25px;
+    left:2px;
+    max-width:98%;
+    min-height: 55%;
+    width: auto;
+    height: auto;
+}
+#lan_select{
+    height: 33%;
+    position: relative;
+    bottom: 75px;
+    /* background-color: rgb(8, 75, 75); */
+}
+h6{
+    font-size: 25px;
+    color:#FFF;
+    position: relative;
+    top:8px;
+    left:273px
+}
+#btn_ch{
+    position: relative;
+    bottom:32px;
+    left:180px;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: #FFF;
+    color: #000000;
+}
+#btn_en{
+    position: relative;
+    bottom:33px;
+    left:182px;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: #FFF;
+    color: #000000;
+}
+#arrow1{
+    position: relative;
+    bottom:30px;
+    right:92px;
+    max-width:2.5%;
+    min-height: 2.5%;
+    width: auto;
+    height: auto;
+}
+#arrow2{
+    position: relative;
+    bottom:31px;
+    left:30px;
+    max-width:2.5%;
+    min-height: 2.5%;
+    width: auto;
+    height: auto;
+}

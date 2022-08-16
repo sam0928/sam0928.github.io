@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>test</title>
+        <link href="./test.css" rel="stylesheet" type="text/css"/>
+        <script src = "./test.js"></script>
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1>請選擇用餐方式</h1>
+            </div>
+            
+            <div id="meal_select">
+                <div id="left" onclick = "check(id)">
+                    <img id="in" src="../img/else/in.PNG">
+                    <h2>內用</h2>
+                    <h3>Eat In</h3>
+                </div>
+                <div id="right" onclick = "check(id)">
+                    <img id="out" src="../img/else/out.PNG">
+                    <h4>外帶</h4>
+                    <h5>Take Out</h5>
+                </div>
+            </div>
+            
+            <div id="lan_select">
+                <h6>選擇語言</h6>
+                <input id="btn_ch" type="button" value="中文" onclick = "check(id)"/>
+                <input id="btn_en" type="button" value="English" onclick = "check(id)"/>
+                <img id="arrow1" src="../img/else/arrow.PNG">
+                <img id="arrow2" src="../img/else/arrow.PNG">
+            </div>
+            
+        </div>
+    </body>
+</html>
